@@ -20,6 +20,7 @@ footer {
   background-size:cover;
   background-position:center;
   width: 100%;
+  margin-top: 50px;
 }
 
 
@@ -42,3 +43,32 @@ footer {
 .scrollToTopBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
+#myCarousel {
+  height: 600px;
+}
+.phnoLabel {
+  margin-top: auto;
+}
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 767px) {
+  #myCarousel {
+    height: 300px;
+  }
+  .phnoLabel {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  #myCarousel {
+    height: 201px;
+  }
+}
+
